@@ -4,7 +4,6 @@ import sys
 from math import lcm
 from urllib.parse import parse_qs
 
-# Duże liczby: wyłącz limit konwersji int<->str (Python 3.11+)
 if hasattr(sys, "set_int_max_str_digits"):
     sys.set_int_max_str_digits(0)
 
